@@ -5,11 +5,14 @@
   grid-template-columns: repeat(16, auto);
   width: 720px;
   height: 720px;
-  background-color: red;
 }
+
+/*
+
 .square {
   width: 45px;
   height: 45px;
   background-color: brown;
   border: solid black 1px;
 }
+*/
