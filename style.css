@@ -1,18 +1,58 @@
+body {
+  background-color: #3d3522;
+}
 #container {
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(16, auto);
   width: 720px;
   height: 720px;
-}
-
-/*
-
-.square {
-  width: 45px;
-  height: 45px;
-  background-color: brown;
   border: solid black 1px;
 }
-*/
+.colorpalette {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 50px;
+}
+button {
+  border: none;
+  width: 50px;
+  height: 50px;
+}
+.white {
+  border: solid black 1px;
+  background-color: white;
+  width: 150px;
+  grid-column: 1 / 4;
+}
+.queenblue {
+  background-color: #587291;
+}
+.bluegreen {
+  background-color: #2f97c1;
+}
+.darkturquoise {
+  background-color: #1ccad8;
+}
+.turquoise {
+  background-color: #15e6cd;
+}
+.springgreen {
+  background-color: #0cf574;
+}
+.lavenderblush {
+  background-color: #f3e8ee;
+}
+.desertsand {
+  background-color: #d7b49e;
+}
+.flame {
+  background-color: #dc602e;
+}
+.orangegolden {
+  background-color: #bc412b;
+}
+
+.square {
+  background-color: white;
+}
