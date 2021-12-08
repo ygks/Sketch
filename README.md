@@ -1,4 +1,4 @@
 # Sketch
 Simple sketchpad made using simple JS with DOM manipulation.
 
-Live preview here: yunushan.com/sketch
+Live preview here: http://yunushan.com/sketch
